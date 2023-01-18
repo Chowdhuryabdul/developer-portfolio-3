@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+.header{
+    height: 670px;
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+    background-image: url('/images/donation1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 1440px; */
+    margin-bottom: 130px;
+    
+}
+
+.header-div{
+    padding-left: 275px;
+    padding-right: 339px;
+    padding-bottom: 175px;
+    padding-top: 149px;
+    text-align: center;
+}
+.header-title{
+    font-weight: 700;
+font-size: 65px;
+color: #FFFFFF;
+margin-bottom: 45px;
+    
+}
+.header-description{
+    font-weight: 400;
+font-size: 18px;
+color: #FFFFFF;
+/* width: 691px; */
+
+text-align: center;
+/* margin-left: 373px;
+margin-right: 376px; */
+}
+.donate-now{
+    background: #FF5959;
+border-radius: 5px;
+width: 160px;
+height: 56px;
+border: 0;
+font-weight: 600;
+font-size: 20px;
+padding: 16px 20.5px;
+color: #FFFFFF;
+margin-top: 30px;
+}
+/* donate-today */
+
+.donate-today{
+    text-align: center;
+    
+}
+.section-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-bottom: 20px;
+}
+.section-description{
+    font-size: 18px;
+line-height: 28px;
+color: #707070;
+margin-bottom: 126px;
+padding: 0 338px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
+}
+ul li{
+    background: #FAFAFA;
+    border-radius: 5px;
+    padding:  45px 25px;
+    font-weight: 700;
+font-size: 30px;
+color: #707070;
+margin-right: 22px;
+margin-bottom: 60px;
+}
+.tk{
+    background: #FFEEEE;
+border: 2px solid #FF5959;
+border-radius: 5px;
+color: #FF5959;
+}
+.amount{
+    margin-bottom: 10px;
+}
+
+/* our donate plan */
+.plan{
+    margin-top: 176px;
+    text-align: left;
+    margin-left: 110px;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-bottom: 20px;
+}
+.plan-description{
+    font-size: 18px;
+line-height: 28px;
+color: #707070;
+margin-bottom: 20px;
+}
+
+.plan-info{
+    display: flex;
+    margin-right: 24px;
+    margin-bottom: 130px;
+    
+    
+}
+.plan-detalis{
+    padding-left: 23px;
+    padding-right: 44px;
+    padding-top: 145px;
+    padding-bottom: 55px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    margin-right: 24px;
+}
+.plan-detalis-1{
+    padding-left: 23px;
+    padding-right: 44px;
+    padding-top: 145px;
+    padding-bottom: 55px;
+    
+    
+    background: rgba(255, 89, 89, 0.1);
+border-radius: 5px;
+margin-right: 24px;
+}
+.plan-detalis-2{
+    padding-left: 23px;
+    padding-right: 44px;
+    padding-top: 145px;
+    padding-bottom: 55px;
+    background: #FFF4D6;
+border-radius: 5px;
+}
+.icon{
+    margin-top: 58px;
+    padding-left: 24px;
+}
+.info-title{
+    font-weight: 600;
+font-size: 24px;
+color: #121212;
+margin-bottom: 16px;
+margin-top: 32px;
+}
+.info-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+}
+
+/* Their Lives depend on your donation */
+.lives{
+    display: flex;
+}
+.lives-div{
+/* width: 493px;
+height: 374px;
+left: 156px; */
+}
+.donation-image{
+    width: 456px;
+    height: 477px;
+    margin-left: 83px;
+}
+.lives-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-bottom: 20px;
+}
+.lives-description{
+    font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #707070;
+margin-bottom: 20px;
+}
+.lives-description-1{
+    font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #707070;
+margin-bottom: 30px;
+}
+.btn-contribute{
+    background: #FF5959;
+    border-radius: 5px;
+    height: 56px;
+    font-weight: 600;
+font-size: 20px;
+color: #FFFFFF;
+padding: 16px 21px;
+border: 0;
+}
+/* they need us to survive */
+
+.survive{
+    display: flex;
+    margin-top: 100px;
+}
+.survive-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-bottom: 20px;
+}
+.survive-description{
+    font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #707070;
+margin-bottom: 20px;
+}
+.survive-description-1{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+    margin-bottom: 30px;
+}
+.survive-image{
+    margin-right: 94px;
+}
+
+/* get my update */
+
+.update{
+    margin-top: 130px;
+    text-align: center;
+    
+}
+
+.update-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+.update-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+    margin-bottom: 50px;
+}
+.email{
+    background: #D9D9D9;
+border-radius: 5px 0px 0px 5px;
+font-weight: 500;
+font-size: 16px;
+color: #AA9F9F;
+padding: 14px 17px;
+border: 0;
+
+
+
+}
+.btn-subscribe{
+    font-weight: 500;
+font-size: 16px;
+color: #FFFFFF;
+padding: 14px 42px;
+background: #FF5959;
+border-radius: 0px 5px 5px 0px;
+left: -5px;
+border: 0;
+
+}
+.update-info{
+    /* width: 809px;
+    height: 200px;  */
+    background: #FFF4D6;
+    padding: 76px 188px;
+   gap: 0;
+    justify-content: center;
+    margin: 0 315px;   
+}
+
+/* be-humble */
+.be-humble{
+    margin-top: 100px;
+    text-align: center;
+    padding-left: 653px;
+    padding-right: 629px;
+    padding-top: 43px;
+    padding-bottom: 42px;
+    background-color:#0B0D17;;
+}
+
+.be-humble-description{
+    font-weight: 400;
+    font-size: 14px;
+    color: #D9DBE1;
+    font-family: 'Manrope';
+}
+.be-humble-title{
+    color: #FF5959;
+    font-weight: 400;
+font-size: 36px;
+letter-spacing: 0.5px;
+font-family: 'Lobster';
+margin-bottom: 24px;
+}
